@@ -1,10 +1,11 @@
 const initState = {
-  posts: [],
+  items: [],
   loading: false,
   error: null,
 };
 
 const postReducer = (state = initState, action) => {
+ 
   switch (action.type) {
     case "FETCH_POSTS_REQUEST":
       return {
@@ -16,9 +17,10 @@ const postReducer = (state = initState, action) => {
       return {
         ...state,
         loading: false,
-        posts: action.payload.filter(
-        (x) => x.home_team_country === "USA" || x.away_team_country === "USA"
-      ) // change here to filter data
+        // change here to filter data
+        items: action.payload.filter(
+          (x) => x.home_team_country === "USA" || x.away_team_country === "USA"
+        ),
       };
     case "FETCH_POSTS_FAILURE":
       return {
