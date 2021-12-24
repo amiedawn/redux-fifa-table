@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchPosts } from "./action";
+import './app/App.css';
 
 function Posts() {
   const dispatch = useDispatch();
@@ -71,21 +72,21 @@ function Posts() {
           <table className="table">
             <thead>
               <tr>
-                <th>No. of games played at home</th>
-                <th>Percentage win at home</th>
-                <th>No. of games played away</th>
-                <th>Percentage win away</th>
-                <th>Total number of goals</th>
+                <th className="table-data">No. of games played at home</th>
+                <th className="table-data">Percentage win at home</th>
+                <th className="table-data">No. of games played away</th>
+                <th className="table-data">Percentage win away</th>
+                <th className="table-data">Total number of goals</th>
               </tr>
             </thead>
 
             <tbody>
               <tr>
-                <td>{homeGames}</td>
-                <td>{pctHomeWin}</td>
-                <td>{awayGames}</td>
-                <td>{pctAwayWin}</td>
-                <td>{totGoals}</td>
+                <td className="table-data">{homeGames}</td>
+                <td className="table-data">{pctHomeWin}</td>
+                <td className="table-data">{awayGames}</td>
+                <td className="table-data">{pctAwayWin}</td>
+                <td className="table-data">{totGoals}</td>
               </tr>
             </tbody>
           </table>
