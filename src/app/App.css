@@ -6,7 +6,7 @@ body {
 table {
   border-style: dashed;
   border-color: yellow;
-
+  margin: 0 auto;
 }
 
 .table-data {
