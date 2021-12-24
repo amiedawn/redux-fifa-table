@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/redux-fifa-table/static/css/main.efd329ff.css",
+    "main.css": "/redux-fifa-table/static/css/main.96773d2d.css",
     "main.js": "/redux-fifa-table/static/js/main.12501ac8.js",
     "index.html": "/redux-fifa-table/index.html",
-    "main.efd329ff.css.map": "/redux-fifa-table/static/css/main.efd329ff.css.map",
+    "main.96773d2d.css.map": "/redux-fifa-table/static/css/main.96773d2d.css.map",
     "main.12501ac8.js.map": "/redux-fifa-table/static/js/main.12501ac8.js.map"
   },
   "entrypoints": [
-    "static/css/main.efd329ff.css",
+    "static/css/main.96773d2d.css",
     "static/js/main.12501ac8.js"
   ]
 }
